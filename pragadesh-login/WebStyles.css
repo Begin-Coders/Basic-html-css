@@ -182,7 +182,7 @@ img{
 		padding: 8px;
 	}
 }
-@media (max-width: 856px){
+@media (max-width: 900px){
 	.checkbtn{
 		display: block;
 	}
