@@ -182,8 +182,8 @@ a.active,a:hover{
 	}
 @media (max-width: 900px){
 	label.logo{
-		font-size: 35px;
-		padding-left: 70px;
+		font-size: 30px;
+		padding-left: 55px;
 	}
 	nav ul li a{
 		font-size: 12px;
@@ -198,8 +198,28 @@ a.active,a:hover{
 	width: 50px;
 	position: absolute;
 	top: 7px;
-	left: 2%;
+	left: 1.6%;
 	}
+.container{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 300px;
+	height: 56%;
+	background-color: rgba(166,239,226,255);
+	border-radius: 25px;
+}
+.container h2{
+	text-align: center;
+	font-size: 40px;
+	border-bottom: 2px solid rgba(19,15,71,255);
+	padding: 15px 0 30px 0;
+}
+.container form{
+	padding: 0 40px;
+	box-sizing: border-box;
+}
 	
 }
 @media (max-width: 856px){
