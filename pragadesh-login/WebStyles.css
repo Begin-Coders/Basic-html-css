@@ -1,13 +1,13 @@
 @font-face{
-	font-family: 'Head';
-	src: url(assets/fonts/Bungasai.ttf);
+	font-family: 'Headings';
+	src: url(assets/fonts/bunga.ttf);
 }
 @font-face{
-	font-family: 'Options';
-	src: url(assets/fonts/nasalization-rg.otf);
+	font-family: 'Option';
+	src: url(assets/fonts/nasali.otf);
 }
 @font-face{
-	font-family: 'Box';
+	font-family: 'Boxx';
 	src: url(assets/fonts/Box.otf);
 }
 .btn{
@@ -56,7 +56,7 @@ form .look{
 	background: none;
 	outline: none;
 	font-size: 20px;
-	font-family: Box;
+	font-family: Boxx;
 }
 
 .look label{
@@ -101,7 +101,7 @@ nav{
 label.logo{
 	color: #130f47;
 	font-size: 35px;
-	font-family: 'Head';
+	font-family: 'Headings';
 	letter-spacing: 0em;
 	line-height: 70px;
 	padding: 0 150px;
@@ -120,7 +120,7 @@ nav ul li{
 nav ul li a{
 	color: #1d306f;
 	font-size: 17px;
-	font-family: 'Options';
+	font-family: 'Option';
 	padding: 7px 13px;
 	border-radius: 5px;
 	text-transform: uppercase;
@@ -148,7 +148,7 @@ img{
 	top: 2px;
 	left: 3%;
 }
-@media (max-width: 952px){
+@media (max-width: 960px){
 	nav{
 		background: #f8f8ba;
 	height: 70px;
@@ -169,7 +169,7 @@ img{
 		padding: 8px;
 	}
 }
-@media (max-width: 856px){
+@media (max-width: 900px){
 	.checkbtn{
 		display: block;
 	}
