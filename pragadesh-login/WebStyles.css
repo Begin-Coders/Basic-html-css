@@ -24,25 +24,19 @@ img{
 	box-sizing: border-box;
 	font-family: monsterrat;
 }
-.btn{
-	border: 2px solid #130f47;
+.button{
 	padding:10px 18px;
-	background-color: #130f47;
-	color: rgba(166,239,226,255);
+	color: white;
+	background-color: black;
+	border: 2px solid black;
 	font-size: 20px;
 	border-radius: 25px;
 	text-align: center;
 	position: absolute;
 	left: 50%;
-	top: 91%;
+	top: 92%;
 	transform: translate(-50%,-50%);
 	cursor: pointer;
-}
-.btn:hover{
-	background-color: rgba(166,239,226,255);
-	color: #130f47;
-	border: 2px solid #130f47;
-	transition: 0.5s;
 }
 .pos{
 	position: absolute;
@@ -53,7 +47,7 @@ img{
 	top: 50%;
 	left: 50%;
 	transform: translate(-50%, -50%);
-	width: 300px;
+	width: 350px;
 	height: 550px;
 	background-color: rgba(166,239,226,255);
 	border-radius: 25px;
@@ -163,7 +157,7 @@ a.active,a:hover{
 @media (max-width: 1280px){
 	label.logo{
 		font-size: 35px;
-		padding-left: 85px;
+		padding-left: 75px;
 	}
 	nav ul li a{
 		font-size: 18px;
@@ -178,12 +172,12 @@ a.active,a:hover{
 	width: 60px;
 	position: absolute;
 	top: 2px;
-	left: 2%;
+	left: 1%;
 	}
 @media (max-width: 900px){
 	label.logo{
 		font-size: 30px;
-		padding-left: 55px;
+		padding-left: 50px;
 	}
 	nav ul li a{
 		font-size: 12px;
@@ -198,50 +192,14 @@ a.active,a:hover{
 	width: 50px;
 	position: absolute;
 	top: 7px;
-	left: 1.6%;
+	left: .5%;
 	}
-.container{
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%, -50%);
-	width: 300px;
-	height: 56%;
-	background-color: rgba(166,239,226,255);
-	border-radius: 25px;
-}
-.container h2{
-	text-align: center;
-	font-size: 40px;
-	border-bottom: 2px solid rgba(19,15,71,255);
-	padding: 15px 0 30px 0;
-}
-.container form{
-	padding: 0 40px;
-	box-sizing: border-box;
-}
 	
 }
 @media (max-width: 856px){
 	.checkbtn{
 		display: block;
 	}
-form .look{
-	position: relative;
-	bottom: 25px;
-	border-bottom: 2px solid #443c78;
-	margin: 35px 0;
-}
-.container{
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%, -50%);
-	width: 250px;
-	height: 50%;
-	background-color: rgba(166,239,226,255);
-	border-radius: 25px;
-}
 	ul{
 		position: fixed;
 		width: 100%;
