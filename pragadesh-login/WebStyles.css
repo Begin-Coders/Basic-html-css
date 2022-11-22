@@ -1,0 +1,201 @@
+@font-face{
+	font-family: 'Head';
+	src: url(Assets/Fonts/Bungasai.ttf);
+}
+@font-face{
+	font-family: 'Options';
+	src: url(Assets/Fonts/nasalization-rg.otf);
+}
+@font-face{
+	font-family: 'Box';
+	src: url(Assets/Fonts/Box.otf);
+}
+.btn{
+	border: none;
+	padding:10px 18px;
+	background-color: #9adfe7;
+	font-size: 20px;
+	border-radius: 25px;
+	text-align: center;
+	position: absolute;
+	left: 37%;
+	top: 87%;
+	cursor: pointer;
+
+}
+.container{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 400px;
+	height: 550px;
+	background-color: rgba(166,239,226,255);
+	border-radius: 25px;
+}
+.container h2{
+	text-align: center;
+	font-size: 40px;
+	border-bottom: 2px solid rgba(19,15,71,255);
+	padding: 0 0 30px 0;
+}
+.container form{
+	padding: 0 40px;
+	box-sizing: border-box;
+}
+form .look{
+	position: relative;
+	border-bottom: 2px solid #443c78;
+	margin: 45px 0;
+}
+.look input{
+	width: 100%;
+	padding: 0px 5px;
+	height: 40px;
+	border: none;
+	background: none;
+	outline: none;
+	font-size: 20px;
+	font-family: Box;
+}
+
+.look label{
+	position: absolute;
+	top: 50%;
+	left: 5px;
+	color: #3a7a73;
+	transform: translateY(-50%);
+	font-size: 16px;
+	pointer-events: none;
+}
+
+.look span::before{
+	content: '';
+	position: absolute;
+	top: 40px;
+	left: 0;
+	width: 100%;
+	height: 2px;
+	background: #192238;
+}
+
+.look input:focus ~ label,
+.look input:valid ~ label{
+	top: -5px;
+	color: #192238;
+}
+
+*{
+	padding: 0;
+	margin: 0;
+	text-decoration: none;
+	list-style: none;
+	box-sizing: border-box;
+	font-family: monsterrat;
+}
+nav{
+	background: #f8f8ba;
+	height: 80px;
+	width: 100%;
+}
+label.logo{
+	color: #130f47;
+	font-size: 35px;
+	font-family: 'Head';
+	letter-spacing: 0em;
+	line-height: 70px;
+	padding: 0 150px;
+	font-weight: bolder;
+}
+nav ul{
+	float: right;
+	margin-right: 20px;
+	cursor: pointer;
+}
+nav ul li{
+	display: inline-block;
+	line-height: 70px;
+	margin: 0 5px;
+}
+nav ul li a{
+	color: #1d306f;
+	font-size: 17px;
+	font-family: 'Options';
+	padding: 7px 13px;
+	border-radius: 5px;
+	text-transform: uppercase;
+}
+a.active,a:hover{
+	background-color: #1a3571;
+	transition: 0.5s;
+	color: #ffeecb;
+}
+.checkbtn{
+	font-size: 30px;
+	color: #130f47;
+	float: right;
+	line-height: 70px;
+	margin-right: 40px;
+	cursor: pointer;
+	display: none;
+}
+#check{
+	display: none;
+}
+img{
+	width: 70px;
+	position: absolute;
+	top: 2px;
+	left: 3%;
+}
+@media (max-width: 952px){
+	nav{
+		background: #f8f8ba;
+	height: 70px;
+	width: 100%;
+	}
+	img{
+	width: 60px;
+	position: absolute;
+	top: 2px;
+	left: 2%;
+}
+	label.logo{
+		font-size: 25px;
+		padding-left: 85px;
+	}
+	nav ul li a{
+		font-size: 14px;
+		padding: 8px;
+	}
+}
+@media (max-width: 856px){
+	.checkbtn{
+		display: block;
+	}
+	ul{
+		position: fixed;
+		width: 100%;
+		height: 100vh;
+		background:grey;
+		top: 70px;
+		left: -100%;
+		text-align: center;
+		transition: all 0.3s;
+	}
+	nav ul li{
+		display: block;
+		margin: 50px 0;
+		line-height: 30px;
+	}
+	nav ul li a{
+		font-size: 20px;
+	}
+	a:hover,a.active{
+		background: none;
+		color: black;
+	}
+	#check:checked ~ ul{
+		left: 0;
+	}
+}
