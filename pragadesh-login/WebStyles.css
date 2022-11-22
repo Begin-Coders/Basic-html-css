@@ -1,14 +1,14 @@
 @font-face{
 	font-family: 'Head';
-	src: url(assets/Fonts/Bungasai.ttf);
+	src: url(assets/fonts/Bungasai.ttf);
 }
 @font-face{
 	font-family: 'Options';
-	src: url(assets/Fonts/nasalization-rg.otf);
+	src: url(assets/fonts/nasalization-rg.otf);
 }
 @font-face{
 	font-family: 'Box';
-	src: url(assets/Fonts/Box.otf);
+	src: url(assets/fonts/Box.otf);
 }
 .btn{
 	border: none;
