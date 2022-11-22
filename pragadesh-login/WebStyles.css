@@ -53,7 +53,7 @@ img{
 	top: 50%;
 	left: 50%;
 	transform: translate(-50%, -50%);
-	width: 350px;
+	width: 300px;
 	height: 550px;
 	background-color: rgba(166,239,226,255);
 	border-radius: 25px;
@@ -137,7 +137,7 @@ nav ul li{
 }
 nav ul li a{
 	color: #1d306f;
-	font-size: 17px;
+	font-size: 25px;
 	font-family: 'Option';
 	padding: 7px 13px;
 	border-radius: 5px;
@@ -160,14 +160,34 @@ a.active,a:hover{
 	display: none;
 }
 
-@media (max-width: 970px){
+@media (max-width: 1280px){
 	label.logo{
-		font-size: 25px;
+		font-size: 35px;
 		padding-left: 85px;
 	}
 	nav ul li a{
-		font-size: 14px;
+		font-size: 18px;
 		padding: 8px;
+	}
+	nav{
+	background: #f8f8ba;
+	height: 75px;
+	width: 100%;
+	}
+	img{
+	width: 60px;
+	position: absolute;
+	top: 2px;
+	left: 2%;
+	}
+@media (max-width: 900px){
+	label.logo{
+		font-size: 35px;
+		padding-left: 85px;
+	}
+	nav ul li a{
+		font-size: 12px;
+		padding: 5px;
 	}
 	nav{
 	background: #f8f8ba;
