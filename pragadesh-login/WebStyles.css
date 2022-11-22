@@ -196,17 +196,27 @@ a.active,a:hover{
 	top: 50%;
 	left: 50%;
 	transform: translate(-50%, -50%);
-	width: 290px;
+	width: 300px;
+	height: ;
 	background-color: rgba(166,239,226,255);
 	border-radius: 25px;
 }
 
 @media (max-width: 900px){
+	.checkbtn{
+	font-size: 25px;
+	color: #130f47;
+	float: right;
+	line-height: 40px;
+	margin-right: 40px;
+	cursor: pointer;
+	display: none;
+}
 	label.logo{
 		font-size: 22px;
 		position: absolute;
-		top: -9px;
-		padding-left: 40px;
+		top:-20px;
+		padding-left: 42px;
 	}
 	nav ul li a{
 		font-size: 12px;
@@ -228,6 +238,27 @@ a.active,a:hover{
 @media (max-width: 856px){
 	.checkbtn{
 		display: block;
+	}
+	label.logo{
+		font-size: 15px;
+		position: absolute;
+		top: -12px;
+		padding-left: 42px;
+	}
+	nav ul li a{
+		font-size: 12px;
+		padding: 5px;
+	}
+	nav{
+	background: #f8f8ba;
+	height: 35px;
+	width: 100%;
+	}
+	img{
+	width: 30px;
+	position: absolute;
+	top: 7px;
+	left: .5%;
 	}
 	ul{
 		position: fixed;
