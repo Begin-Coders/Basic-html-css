@@ -18,6 +18,6 @@ buttons.button2.onclick = () => {
 }
 
 buttons.button3.onclick = () => {
-    document.getElementById('webpage-body-div').innerHTML = `<iframe src='./dhinagar-login/index2.html'></iframe><button onclick="location.href='./dhinagar-login/index2.html'">Click to see in full screen</button>`
+    document.getElementById('webpage-body-div').innerHTML = `<iframe src='./dhinagar-login/index.html'></iframe><button onclick="location.href='./dhinagar-login/index.html'">Click to see in full screen</button>`
     design()
 }
