@@ -26,7 +26,7 @@
 }
 
  body{
-	background-image: url('the3.jpg');
+	background-image: url('the.jpg');
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-attachment: fixed;
@@ -70,7 +70,7 @@ ul li a:hover{
 	background-color: white;
 	color:#000;	
 }
-ul li .active a{
+ul li  a.active{
 	background-color: white;
 	color:#000;
 }
@@ -123,15 +123,18 @@ form{
 		border-bottom: 1px solid white;
 		opacity: .4;
 		} 
-  @media(max-width:952px){
-  	ul li a{
-  		font-size: 19px;
+  @media(max-width:786px){
+  	.main ul{
+  		position: fixed;
+  		left: 0;
+  		width: 100%;
+  		height: 100vh;
+  		background-color: black;
+
+  	}
+  	.main ul li{
+  		display: block;
+  		w
+  	}
 
   }
-   @media(max-width:600px){
-  	ul li a{
-  		font-size: 12px;
-
-  }
-
-
