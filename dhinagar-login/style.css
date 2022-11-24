@@ -83,8 +83,6 @@ ul li  a.active{
 	opacity: .8;
 }
 
-}
-
 body{
 
 	display: inline-block;
@@ -111,8 +109,8 @@ form{
 	border-radius: 10px;
 
 
-		}
-	form input{
+}
+form input{
 		color: WHITE;
 		margin:10px;
 		text-align: center;
@@ -134,7 +132,6 @@ form{
   	}
   	.main ul li{
   		display: block;
-  		w
   	}
 
-  }
+}
