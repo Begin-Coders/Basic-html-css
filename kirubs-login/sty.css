@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 body{	
 	background-image:url("galx-min.webp");
 	font-family:montserrat;
@@ -5,14 +6,24 @@ body{
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	background-position: center;
+=======
+body {
+    background-image: url("galx.webp");
+    font-family: montserrat;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+>>>>>>> aff368263cf1b65ab1f898434245daf9f8b187d1
 }
-.login{
-	border:none;
-	width: 100%; 
-	padding-top: 10px; 
-	border-bottom: 3px solid silver;
-	text-align: center;
+.login {
+    border: none;
+    width: 100%;
+    padding-top: 10px;
+    border-bottom: 3px solid silver;
+    text-align: center;
 }
+<<<<<<< HEAD
 form input{
 	background: transparent;
 	border:none;
@@ -22,13 +33,24 @@ form input{
 	color: black;
 	margin: 10px;
 	font-size:20px;
+=======
+form input {
+    background: transparent;
+    border: none;
+    border-bottom: 3px solid white;
+    width: 100%;
+    height: 35px;
+    color: black;
+    margin: 10px;
+>>>>>>> aff368263cf1b65ab1f898434245daf9f8b187d1
 }
-h1{
-	position: absolute;
-	top: 10%;
-	left: 50%;
-	transform: translate(-50%,-50%);
+h1 {
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
+<<<<<<< HEAD
 .kirubs{
 	position: absolute;
 	top: 91%;
@@ -52,15 +74,38 @@ h1{
 	text-transform: uppercase;
 	padding:5px 18px 17px 9.7px;
 	font-weight:bolder;
+=======
+.kirubs {
+    position: absolute;
+    top: 91%;
+    left: 50%;
+    width: 25%;
+    text-align: center;
+    transform: translate(-50%, -50%);
+    padding: 7px 16px 17px 13px;
+    border: 1px solid black;
+    border-radius: 25px;
+    opacity: 10;
+    cursor: pointer;
+    background-color: black;
+    color: white;
 }
-.align{
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%,-50%);
-	align-items: center;
-	justify-content: center;
+.kirubs:hover {
+    color: black;
+    background-color: white;
+    border-color: black;
+    text-transform: uppercase;
+>>>>>>> aff368263cf1b65ab1f898434245daf9f8b187d1
 }
+.align {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    align-items: center;
+    justify-content: center;
+}
+<<<<<<< HEAD
 form{
 	padding:65px;
 	text-align: center;
@@ -70,66 +115,115 @@ form{
 	background-color:rgba(200,200,200,.60);
 	border-radius: 35px;
 	font-family:poppins,sans-serif; 
+=======
+form {
+    padding: 60px;
+    text-align: center;
+    box-shadow: 5px 10px 3px;
+    width: 300px;
+    flex-direction: column;
+    background-color: rgba(200, 200, 200, 0.6);
+    border-radius: 30px;
+>>>>>>> aff368263cf1b65ab1f898434245daf9f8b187d1
 }
-*{
-	padding: 0;
-	margin: 0;
-	text-decoration: none;
-	list-style:none;
-	box-sizing: border-box;
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
 }
-nav ul{
-	float:right;
-	margin-right:20px; 
+nav ul {
+    float: right;
+    margin-right: 20px;
 }
-nav{
-	background-color:transparent;
-	height:50px;
-	width:100%; 
+nav {
+    background-color: transparent;
+    height: 50px;
+    width: 100%;
 }
-.logo img{
-	float:left;
-	width: 50px;
-	height:auto;
-	margin-top: 8px;
-	margin-left: 18px;
-
+.logo img {
+    float: left;
+    width: 50px;
+    height: auto;
+    margin-top: 8px;
+    margin-left: 18px;
 }
-nav ul li{
-	display:inline-block;
-	line-height: 50px;
-	margin: 0 5px;
+nav ul li {
+    display: inline-block;
+    line-height: 50px;
+    margin: 0 5px;
 }
-nav ul li a{
-	color:white;
-	font-size: 20px;
-	padding: 7px 15px;
-	border-radius: 13px;
+nav ul li a {
+    color: white;
+    font-size: 20px;
+    padding: 7px 15px;
+    border-radius: 13px;
 }
-a:hover{
-	background-color: grey;
-	transition: .2s;
-	text-transform: uppercase;
-	color:black;
+a:hover {
+    background-color: grey;
+    transition: 0.2s;
+    text-transform: uppercase;
+    color: black;
 }
-.checkbtn{
-	font-size: 30px;
-	color:white;
-	float:right;
-	line-height: 80px;
-	margin-right: 40px;
-	cursor:pointer;
-	display:none;
+.checkbtn {
+    font-size: 30px;
+    color: white;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
 }
-#check{
-	display:none;
+#check {
+    display: none;
 }
-@media(max-width:952px){
-	
-	nav ul li a{
-		font-size: 16px;
-	}
+@media (max-width: 952px) {
+    nav ul li a {
+        font-size: 16px;
+    }
 }
+@media (max-width: 856px) {
+    .checkbtn {
+        display: block;
+    }
+    nav ul li a {
+        font-size: 12px;
+        padding: 5px;
+    }
+    nav {
+        background: transparent;
+        height: 40px;
+        width: 100%;
+    }
+    ul {
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        background: url("world-modified.webp");
+        background-position: center;
+        top: 60px;
+        left: -100%;
+        text-align: center;
+        transition: all 0.3s;
+    }
+    nav ul li {
+        display: block;
+        margin: 50px 0;
+        line-height: 35px;
+    }
+    nav ul li a {
+        font-size: 20px;
+    }
+}
+a:hover {
+    background-color: none;
+    color: black;
+}
+#check:checked ~ ul {
+    left: 0;
+}
+<<<<<<< HEAD
 @media (max-width: 856px){
 	.checkbtn{
 		display: block;
@@ -172,3 +266,5 @@ a:hover{
 		left:0;
 	}
 
+=======
+>>>>>>> aff368263cf1b65ab1f898434245daf9f8b187d1
