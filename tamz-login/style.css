@@ -1,77 +1,74 @@
-.container fieldset{
-	border-radius: 22px;
-	border-color: violet strong;
-	text-shadow: 10px ;
-
+.container fieldset {
+    border-radius: 22px;
+    border-color: violet strong;
+    text-shadow: 10px;
 }
-img{
-	position: absolute;
-	top: 1%;
-	right: 85%;
-
+img {
+    position: absolute;
+    top: 1%;
+    right: 85%;
 }
-h1{
-	top:5px;
-	font-family: serif;
-	color: white;
+h1 {
+    top: 5px;
+    font-family: serif;
+    color: white;
 }
-.size{
-	width: 100%;
+.size {
+    width: 100%;
 }
 .container form {
-position: absolute;
-top: 50%;
-left: 50%;
-transform: translate(-50%,-50%);
-width:  
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
-form input{
-	width: 200px;
-	font-style:italic;
-	border-radius: 22px;
+form input {
+    width: 200px;
+    font-style: italic;
+    border-radius: 22px;
 }
-.container{
-	text-align: center;
-	margin:auto;
-	margin-top: 100px;
-	margin-bottom: 100px;
-	margin-left: 100px;
-	line-height: 2em;
+.container {
+    text-align: center;
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-left: 100px;
+    line-height: 2em;
 }
-.container label{
-	position: absolute;
-	left: 20px;
-	font-style: inherit;
-	color: white;
+.container label {
+    position: absolute;
+    left: 20px;
+    font-style: inherit;
+    color: white;
 }
-body{
-	background: url('red.webp');
-	background-repeat: no-repeat;
-	background-position: center;
-	background-attachment: fixed;
-	background-size: cover;
+body {
+    background: url("red.webp");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
 }
-nav{
-	position: absolute;
-	top:2%;
-	left: 60%;
+nav {
+    position: absolute;
+    top: 2%;
+    left: 60%;
 }
-nav li{
-	display: block;
-	list-style-type: none;
-	float: left;
-	text-decoration: none;
+nav li {
+    display: block;
+    list-style-type: none;
+    float: left;
+    text-decoration: none;
 }
-nav ul li{
-	display: inline-block;
+nav ul li {
+    display: inline-block;
 }
-nav li a{
-	width: 100%;
-	text-decoration: none;
-	color: white;
-	background-color: red;
-	color: white;
-	padding: 15px 16px;
-	margin: 10px 10px;
-	border-radius: 22px;
+nav li a {
+    width: 100%;
+    text-decoration: none;
+    color: white;
+    background-color: red;
+    color: white;
+    padding: 15px 16px;
+    margin: 10px 10px;
+    border-radius: 22px;
 }

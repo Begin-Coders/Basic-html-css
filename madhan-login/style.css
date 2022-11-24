@@ -1,4 +1,4 @@
-body{
+body {
     margin: 0;
     padding: 0;
     background-image: url(back.jpg);
@@ -8,22 +8,18 @@ body{
     font-family: sans-serif;
 }
 
-.box{
-
- 
+.box {
     background: silver;
     color: red;
     top: 60%;
     left: 50%;
     position: absolute;
-    transform: translate(-50%,-50%);
+    transform: translate(-50%, -50%);
     box-sizing: border-box;
     padding: 50px 50px;
 }
 
-
-
-.user{
+.user {
     width: 100px;
     height: 100px;
     position: relative;
@@ -32,7 +28,7 @@ body{
     left: calc(50% - 50px);
 }
 
-h1{
+h1 {
     margin: 0;
     padding: 0 0 20px;
     text-align: center;
@@ -40,20 +36,21 @@ h1{
     color: black;
 }
 
-p{
+p {
     color: #f49126;
     margin: 0;
     padding: 0;
     font-weight: bold;
 }
 
-input{
+input {
     width: 100%;
     margin-bottom: 10px;
 }
 
- input[type="text"], input[type="password"] ,input[type="email"]
-{
+input[type="text"],
+input[type="password"],
+input[type="email"] {
     border: none;
     border-bottom: 2px solid #fff;
     background: transparent;
@@ -63,8 +60,7 @@ input{
     font-size: 16px;
 }
 
-input[type="submit"]
-{
+input[type="submit"] {
     border: none;
     outline: none;
     height: 40px;
@@ -72,28 +68,20 @@ input[type="submit"]
     color: #fff;
     font-size: 18px;
     border-radius: 20px;
-
 }
 
-
-input[type="submit"]:hover
-{
+input[type="submit"]:hover {
     cursor: pointer;
     background: #0097a7;
 }
 
-a
-{
+a {
     text-decoration: none;
     font-size: 16px;
     line-height: 10px;
     color: #069818;
 }
 
-
-a:hover
-{
+a:hover {
     color: red;
 }
-
-
