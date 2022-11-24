@@ -42,7 +42,7 @@ buttons.button3.onclick = () => {
 buttons.button4.onclick = () => {
     document.getElementById(
         "webpage-body-div"
-    ).innerHTML = `<iframe src='./madhan-login/index.html'></iframe><button onclick="location.href='./madan-login/index.html'">Click to see in full screen</button>`;
+    ).innerHTML = `<iframe src='./madhan-login/index.html'></iframe><button onclick="location.href='./madhan-login/index.html'">Click to see in full screen</button>`;
     design();
 };
 
