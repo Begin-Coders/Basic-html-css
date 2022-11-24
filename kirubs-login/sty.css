@@ -1,5 +1,5 @@
 body{	
-	background-image:url("galx.webp");
+	background-image:url("galx-min.webp");
 	font-family:montserrat;
 	background-size: cover; 
 	background-repeat: no-repeat;
@@ -16,11 +16,12 @@ body{
 form input{
 	background: transparent;
 	border:none;
-	border-bottom: 3px solid white;
+	border-bottom: 4px solid white;
 	width: 100%;
 	height: 35px;
 	color: black;
 	margin: 10px;
+	font-size:20px;
 }
 h1{
 	position: absolute;
@@ -36,18 +37,21 @@ h1{
 	text-align: center;
 	transform: translate(-50%,-50%);
 	padding: 7px 16px 17px 13px;
-	border:1px solid black;
+	border:2px solid black;
 	border-radius: 25px;
 	opacity:10;
 	cursor: pointer;
 	background-color: black;
 	color: white;
+	font-size:15px;
 }
 .kirubs:hover{
 	color: black;
 	background-color: white;
 	border-color: black;
 	text-transform: uppercase;
+	padding:5px 18px 17px 9.7px;
+	font-weight:bolder;
 }
 .align{
 	position: absolute;
@@ -58,13 +62,14 @@ h1{
 	justify-content: center;
 }
 form{
-	padding:60px;
+	padding:65px;
 	text-align: center;
 	box-shadow: 5px 10px 3px ;
-	width: 300px;
-	flex-direction: column;
+	width: 350px;
+	flex-direction:column;
 	background-color:rgba(200,200,200,.60);
-	border-radius: 30px; 
+	border-radius: 35px;
+	font-family:poppins,sans-serif; 
 }
 *{
 	padding: 0;
@@ -142,7 +147,7 @@ a:hover{
 		position: fixed;
 		width: 100%;
 		height: 100vh;
-		background:url('world-modified.webp');
+		background:url('world-modified-min.webp');
 		background-position: center;
 		top: 60px;
 		left: -100%;
