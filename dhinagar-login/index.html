@@ -1,43 +1,63 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<style>
+	<style >
 		h1{
-			opacity: .9;
+			font-size: 45px;
+
+
 		}
+
 		label{
-			opacity:.8 ;
+			color: rgba(255, 255, 255, .5);
+
 		}
+		ul li a{ 
+			opacity: .7;
+			
+		}
+
 	</style>
-	<title>begin</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Egg</title>
 	<link rel="stylesheet" type="text/css" href="style.css">
+	<script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	
+
+     
 </head>
 <body>
-	
+	<nav>
+		<input type="checkbox" id="check">
+		<label for="check" class="checkbtn">
+			<i class="fa fa-bars"></i>
+		</label>
+		<label class="logo "><img src="the3.webp" height="70px" width="70px"></label>
+	<ul >
+		<li><a class="active" href="#"  target="_blank">Home</a></li>
+		<li><a href="contact.html" target="_blank">Contact</a></li>
+		<li><a href="#">T&C</a></li>
+		<li><a href="https://github.com/Begin-Coders/Basic-html-css"target="_blank">Github</a></li>
+	</ul>
+	</nav>
 	<div class="main">
-			<div class="logo">
-				<img src="the3.png">
-			</div>
-		<ul >
-			<li class="active"><a href="#">home</a></li>
-			<li><a href="#">contact</a></li>
-			<li><a href="#">t&c</a></li>
-			<li><a href="https://github.com/Begin-Coders/Basic-html-css" target="_blank">github</a></li>
-		 </ul>
-	    </div>
-		<div class="align">
-		<form>
-		<h1 style="color:whitesmoke;">login</h1>
-		<label style="color:white">your mail</label><br>
-		<input type="email" name="email" ><br>
-		<label style="color:white">banned game</label><br>
-		<input type="text" name="name"><br>
-		<label style="color:white">some text</label><br>
-		<input type="textarea" name="name"><br>
-		<label style="color:white">banned time</label><br>
-		<input type="date" name="date"><br>
-		<button class="submit">submit</button>
-		</form>
+	<form>
+		<h1 style="color:rgba(255, 255, 255, .6);">LOGIN</h1><br>
+		<label>Enter mail </label>
+		<input type="email" name="Mail">
+		<label>Banned game</label>
+		<input type="text" name="name">
+		<label>Textarea</label>
+		<input type="textarea" name="text">
+		<label>unban time</label>
+		<input type="date" name="date">
+		<button>submit</button>
+	</form>
 	</div>
+
+	
+	<section></section>
 </body>
 </html>
