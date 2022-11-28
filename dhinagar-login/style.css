@@ -118,7 +118,8 @@ form{
 	flex-direction: column;
 	background: rgba(255, 255, 255, 0.05);
 	box-shadow: 0 8px 32px 0;
-	border-radius: 30px;	
+	border-radius: 30px;
+		
 }
 h1{
 	text-align: center;
