@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 @import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");	
 *{
 	padding: 0;
@@ -6,8 +7,94 @@
 	list-style: none;
 	box-sizing: border-box;
 
-
+=======
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "poppins", sans-serif;
 }
+
+.sapu {
+    position: absolute;
+    top: 76%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 5px 12px 5px 12px;
+    background-color: white;
+    border: 3px solid white;
+    border-radius: 25%;
+    opacity: 0.7;
+}
+.sapu:hover {
+    background-color: transparent;
+    border: 3px solid white;
+    color: white;
+    transition: 0.6s;
+}
+
+body {
+    background-image: url("the.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+ul {
+    float: right;
+    list-style-type: none;
+    margin-top: 25px;
+    font-family: courier;
+    opacity: 0.6;
+}
+ul li {
+    display: inline-block;
+}
+li a {
+    display: block;
+    padding: 16px;
+    text-align: center;
+    color: black;
+    text-decoration: none;
+    font-size: 25px;
+    font-family: "Poppins";
+}
+ul li a {
+    text-decoration: none;
+    color: #fff;
+    padding: 5px 20px;
+    border: 1px solid transparent;
+    transition: 0.6s ease;
+}
+
+ul li a:hover {
+    background-color: white;
+    color: #000;
+}
+ul li a.active {
+    background-color: white;
+    color: #000;
+}
+.logo img {
+    float: left;
+    width: 70px;
+    height: auto;
+    margin-top: 30px;
+    margin-left: 10px;
+    opacity: 0.8;
+}
+>>>>>>> b4a66ff1ed546813f411827237bab50d77b9cbf9
+
+body {
+    display: inline-block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+<<<<<<< HEAD
 body{
 	background:linear-gradient(to top,rgba(0, 0, 0, 0.5)50%,rgba(0, 0, 0, 0.5)50%) ,url(the.webp);
 	background-size:cover ;
@@ -157,3 +244,45 @@ button{
 }
 
 
+=======
+.align {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    align-items: center;
+    justify-content: center;
+}
+form {
+    padding: 60px;
+    text-align: center;
+    box-shadow: 0 8px 3px;
+    width: 300px;
+    flex-direction: column;
+    background: rgba(255, 255, 255, 0.08);
+    border-radius: 10px;
+}
+form input {
+    color: WHITE;
+    margin: 10px;
+    text-align: center;
+    width: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid white;
+    opacity: 0.4;
+}
+@media (max-width: 786px) {
+    .main ul {
+        position: fixed;
+        left: 0;
+        width: 100%;
+        height: 100vh;
+        background-color: black;
+    }
+    .main ul li {
+        display: block;
+    }
+}
+>>>>>>> b4a66ff1ed546813f411827237bab50d77b9cbf9
